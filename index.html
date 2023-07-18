@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Innocelf Dashboard</title>
+    <link href="dist/output.css" rel="stylesheet" />
+  </head>
+  
+  <body>
+    <h1 class="text-center text-gray-500 font-extrabold text-2xl m-5">Innocelf Dashboard</h1>
+    <div class="relative overflow-x-auto m-5">
+      <table
+        id="userTable"
+        class="w-full text-sm text-center text-gray-500 dark:text-gray-400"
+      >
+        <thead
+          class="text-sm text-gray-700 uppercase dark:bg-gray-700 dark:text-gray-400"
+        >
+          <tr>
+            <th scope="col" class="px-6 py-3">First Name</th>
+            <th scope="col" class="px-6 py-3">Last Name</th>
+            <th scope="col" class="px-6 py-3">Email</th>
+            <th scope="col" class="px-6 py-3">Subscription</th>
+          </tr>
+        </thead>
+        <!-- User data will be dynamically populated here -->
+        <tbody id="userTableBody">
+        </tbody>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
